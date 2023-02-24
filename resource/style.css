@@ -11,7 +11,9 @@ body {
 }
 #container{
     background: #ede9cc;
-
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
 }
 #topo{
     background: #dbcd87;
@@ -27,12 +29,26 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
-#menu{
+
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: url(./img/logo.png) no-repeat;
+    width: 151px;
+    height: 66px;
+    z-index: 3;
+    text-indent: -9000px;
+}
+
+#area-menu{
     background: url(./img/topo-imagem-lateral.png) no-repeat;
     width: 450px;
     height: 250px;
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 2;
 }
